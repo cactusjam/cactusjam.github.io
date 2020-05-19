@@ -1,0 +1,1 @@
+var catalogData=[{isNew:!0},{isNew:!1},{isNew:!1},{isNew:!1}],updateCards=function(a){for(var e=document.querySelectorAll(".catalog_items"),t=0;t<e.length;t++){var s=e[t];a[t].isNew&&s.classList.add("new")}};updateCards(catalogData);
